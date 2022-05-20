@@ -1,0 +1,146 @@
+/*Background design*/
+body{
+    background-image: url(/Images/Background.png);
+    background-size: auto;
+}
+
+/*Logo*/
+/*Logo main menu page design*/
+img{
+    margin-top: 50px;
+    width: 500px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Logo game page design*/
+.logoGame{
+    margin-top: 50px;
+    width: 500px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: orangered;
+    border: white;
+    border-radius: 10px;
+    border-style: dashed;
+}
+/*Logo register page and login page design*/
+.registerLogo{
+    margin-top: 100px;
+    width: 350px;
+    height: 300px;
+    margin-left: 60px;
+}
+
+/*Navigation design*/
+/*Links aligment*/
+nav {
+    text-align: center;
+}
+/*Links design*/
+nav a{
+    color:black;
+    padding: 5px;
+    background-color: orange;
+    border-style: dashed;
+    border-color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+/*Current link design*/
+nav .current{
+    background-color: orangered;
+}
+/*Hover link design*/
+nav a:hover{
+    color: white;
+}
+
+/*Registration page and login page design*/
+/*Form text design*/
+.styleRegister{
+    width: 220px;
+    color: black;
+}
+.styleLogin{
+    width: 220px;
+    color: black;
+}
+/*Form submit button design*/
+.submitButtonR{
+    color: black;
+    font-weight: bold;
+    background-color: orange;
+    border:white;
+    border-style: dashed;
+    cursor: pointer;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+.submitButtonL{
+    color: black;
+    font-weight: bold;
+    background-color: orange;
+    border:white;
+    border-style: dashed;
+    cursor: pointer;
+    margin-left: 70px;
+    border-radius: 10px;
+}
+/*Form aligment*/
+.styleFormR{
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+.styleFormL{
+    margin-top: 180px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+}
+/*Result text design*/
+p{
+    text-align: center;
+    color: white;
+}
+
+/*Rankings page table design*/
+table, th, td{
+    border: 1px solid white;
+    padding: 5px;
+    margin-top: 160px;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+/*User feedback design*/
+.user{
+    margin-left: 130px;
+    margin-right: 130px;
+    color:black;
+    padding: 5px;
+    background-color: orange;
+    border-style: dashed;
+    border-color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*Logout button design*/
+.logoutStyle{
+    margin-left: 180px;
+    margin-right: 180px;
+    color:black;
+    padding: 5px;
+    background-color: orange;
+    border-style: dashed;
+    border-color: white;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+

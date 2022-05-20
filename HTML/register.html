@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Register</title>
+    <!--Link to external file style sheet-->
+    <link rel="stylesheet" href="/CSS/styles.css">
+    <!--Link to external file bootstrap-->
+    <link rel="stylesheet" href="/Bootstrap/bootstrap.min.css">
+    <!--Link to external file JavaScript-->
+    <script src="/JavaScript/registration.js"></script>
+  </head>
+  
+  <body>
+
+    <div class="container-fluid">
+    
+      <!--TOP ROW-->
+      <div class="container-fluid">
+        <div class="row">
+          
+          <!--Left column-->
+          <!--Logo-->
+          <div class="col-lg"><img class="registerLogo" src="/Images/Logo.png" alt="CrazyClown"></div>
+          
+          <!--Middle column-->
+          <!--Register form-->
+          <div class="col-lg">
+            <div class="styleFormR">
+              <input class="styleRegister" type="username" placeholder="Username" id="newUser"><br><br>
+              <input class="styleRegister" type="email" placeholder="Email" id="email"><br><br>
+              <input class="styleRegister" type="date" min="1960-01-01" max="2020-12-12" type="DOB" id="DOB"><br><br>
+              <input class="styleRegister" type="text" placeholder="Password" id="newPassword"><br><br>
+              <button class="submitButtonR" onclick="registerUser()">Register</button>
+            </div>
+            <!--Result-->
+            <p id="feedbackReg"></p>
+          </div>
+          
+          <!--Right column-->
+          <!--Logo-->
+          <div class="col-lg"><img class="registerLogo" src="/Images/Logo.png" alt="CrazyClown"></div>
+
+        </div>  
+      </div>
+  
+      <br>
+
+      <!--BOTTOM ROW-->
+      <div class="container-fluid">
+        <div class="row">
+          
+          <!--Left column-->
+          <div class="col-lg"></div>
+
+          <!--Middle column-->
+          <!--Navigation-->
+          <div class="col-lg">
+            <nav>    
+              <a href="index.html">Home</a>
+              <a href="game.html">Game</a>
+              <a href="rankings.html">Rankings</a>
+              <a class="current" href="register.html">Register</a>
+              <a href="login.html">Login</a>
+            </nav>
+          </div>
+
+          <!--Right column-->
+          <div class="col-lg">
+            <!--User login feedback-->
+            <p id ="user" class="user">Account</p>
+            <a class="logoutStyle" onclick="logout()" href="login.html">Logout</a>
+          </div>
+          
+        </div>  
+      </div>
+    </div>
+
+  </body>
+</html>
